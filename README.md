@@ -1,90 +1,77 @@
-# **Food Order Analysis with Google Colab**
+# **Data Science Portfolio**
 
-This project involves the analysis of a dataset related to food orders using **Google Colab**. The dataset, `foodhub_order.csv`, is processed and explored to derive insights into customer orders, order trends, and other important metrics.
+This repository contains my data science portfolio, showcasing projects across various domains, including food order analysis, EdTech industry analysis, and a recommendation system for Amazon products. Each project demonstrates my skills in data preprocessing, exploratory data analysis (EDA), data visualization, statistical analysis, and machine learning.
 
-## **Project Overview**
+## **Projects**
 
-The goal of this project is to perform **Exploratory Data Analysis (EDA)** and basic data processing on food order data. This can help businesses understand customer behavior, identify order patterns, and improve overall service.
+### **1. Food Order Analysis with Google Colab**
+This project involves analyzing a dataset from a food delivery platform to derive insights into customer ordering patterns and business performance. The analysis covers revenue trends, order frequency, and high-value customer identification.
 
-The project includes:
+#### **Key Objectives**
+- Identify the most frequently ordered items.
+- Analyze peak order times and revenue trends.
+- Determine high-value customers based on order frequency and total spend.
 
-- Loading data from Google Drive in Google Colab.
-- Cleaning and preprocessing the dataset.
-- Conducting exploratory data analysis (EDA).
-- Visualizing key metrics and trends.
+#### **Process Overview**
+- **Data Loading**: Mounted Google Drive and loaded the dataset into a Pandas DataFrame.
+- **Data Cleaning**: Handled missing values and corrected data inconsistencies.
+- **EDA**: Generated summary statistics, visualized order distributions, and revenue trends.
+- **Visualization**: Used Matplotlib and Seaborn to create bar charts, line plots, and histograms.
 
-## **Features**
+#### **Technologies Used**
+- Python (Pandas, Matplotlib, Seaborn)
+- Google Colab
 
-- **Data Loading**: The notebook mounts Google Drive and reads the dataset directly from it.
-- **Data Exploration**: Initial exploration includes checking the dataset's structure, missing values, and basic statistics.
-- **Data Visualization**: Charts and graphs are used to visualize key insights.
-- **Insights Extraction**: Key takeaways from the analysis are documented.
+### **2. EdTech Industry Hypothesis Testing**
+This project focuses on statistical analysis and hypothesis testing in the EdTech sector. The goal is to validate key business hypotheses about user engagement and course completion rates, providing data-driven insights to improve user experience.
+
+#### **Key Objectives**
+- Test whether course completion rates differ significantly across user segments.
+- Analyze the relationship between engagement metrics and user retention.
+
+#### **Process Overview**
+- **Hypothesis Formulation**: Defined null and alternative hypotheses for various business questions.
+- **Statistical Testing**: Conducted t-tests and ANOVA to validate hypotheses.
+- **Visualization**: Presented results using box plots, histograms, and scatter plots.
+
+#### **Technologies Used**
+- Python (SciPy, Statsmodels, Seaborn)
+- Jupyter Notebook
+
+### **3. Amazon Product Recommendation System**
+This project involves building a recommendation system for Amazon products using collaborative filtering and content-based filtering approaches. The aim is to suggest relevant products to users based on their past interactions and product attributes.
+
+#### **Key Objectives**
+- Build a collaborative filtering model using user-item interaction data.
+- Implement a content-based recommender using product descriptions and metadata.
+- Evaluate the performance of the recommendation system using appropriate metrics.
+
+#### **Process Overview**
+- **Data Preprocessing**: Cleaned and prepared the user-item interaction matrix.
+- **Model Development**: Implemented collaborative filtering using matrix factorization techniques.
+- **Content-Based Filtering**: Extracted features from product metadata and computed similarity scores.
+- **Evaluation**: Measured the accuracy of recommendations using precision, recall, and F1-score.
+
+#### **Technologies Used**
+- Python (Pandas, NumPy, Scikit-Learn)
+- Jupyter Notebook
 
 ## **Setup Instructions**
 
-### **Step 1: Clone the Repository**
-Clone the repository to your local machine:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/data-science-portfolio.git
+   ```
+2. Navigate to the project directory and open the desired Jupyter notebook.
+3. Ensure you have Python 3.x and the necessary libraries installed:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Run the Jupyter notebooks to explore the analysis and results.
 
-```bash
-git clone https://github.com/yourusername/your-repo.git
-```
+## **Technologies Used Across Projects**
 
-### **Step 2: Open the Notebook in Google Colab**
-
-1. Upload the Jupyter notebook (`LowCode.ipynb`) to your Google Drive.
-2. Open it with **Google Colab**.
-
-### **Step 3: Upload the Dataset**
-Ensure that the dataset (`foodhub_order.csv`) is uploaded to your Google Drive.
-
-### **Step 4: Run the Notebook**
-1. Mount your Google Drive in the first cell.
-2. Update the file path if necessary to correctly point to the dataset.
-3. Run all cells sequentially.
-
-## **Requirements**
-
-- Python 3.x
-- Google Colab
-- Pandas
-- Matplotlib
-- Seaborn
-
-## **Usage**
-
-1. After opening the notebook in Google Colab, ensure that your Google Drive is mounted correctly.
-2. Run each cell to load the data, process it, and visualize key metrics.
-3. Modify or extend the analysis as needed.
-
-## **Data Dictionary**
-
-The dataset `foodhub_order.csv` contains the following columns:
-
-| Column Name       | Description                                   |
-|-------------------|-----------------------------------------------|
-| `Order ID`        | Unique identifier for each order              |
-| `Customer Name`   | Name of the customer placing the order        |
-| `Item Ordered`    | Name of the item ordered                      |
-| `Quantity`        | Number of items ordered                       |
-| `Order Date`      | Date and time when the order was placed       |
-| `Order Amount`    | Total amount of the order                     |
-| `Payment Method`  | Mode of payment used by the customer          |
-| `Delivery Status` | Status of the order (e.g., Delivered, Pending)|
-
-## **Analysis Goals**
-
-The analysis in this project focuses on:
-
-- Identifying the most frequently ordered items.
-- Analyzing order trends over time.
-- Calculating total revenue generated.
-- Understanding customer purchasing behavior.
-
-## **Results and Insights**
-
-- **Top-Selling Items**: Certain items were identified as the most frequently ordered.
-- **Peak Order Times**: Specific days and times showed higher order volumes.
-- **Revenue Trends**: Revenue patterns over time were visualized to understand business performance.
-- **Customer Insights**: High-value customers and frequent buyers were identified.
+- Python (Pandas, NumPy, Matplotlib, Seaborn, SciPy, Scikit-Learn)
+- Jupyter Notebook / Google Colab
 
 
