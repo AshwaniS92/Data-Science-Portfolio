@@ -56,19 +56,6 @@ This project involves building a recommendation system for Amazon products using
 - Python (Pandas, NumPy, Scikit-Learn)
 - Jupyter Notebook
 
-## **Setup Instructions**
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/data-science-portfolio.git
-   ```
-2. Navigate to the project directory and open the desired Jupyter notebook.
-3. Ensure you have Python 3.x and the necessary libraries installed:
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. Run the Jupyter notebooks to explore the analysis and results.
-
 ## **Technologies Used Across Projects**
 
 - Python (Pandas, NumPy, Matplotlib, Seaborn, SciPy, Scikit-Learn)
